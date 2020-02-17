@@ -1,0 +1,117 @@
+
+.flexbox
+{
+  text-align: center;
+  padding-top: 70px;
+}
+
+.title
+{
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: Snell Roundhand, cursive
+}
+
+.label
+{
+  color: white;
+  font-size: 25px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+
+input {
+    width: 250px;
+    padding: 20px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+#currencyResults
+{
+  padding-top:  50px;
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  background: transparent;
+
+}
+#result
+{
+  position: absolute;
+  top: 0%;
+  left: 25%;
+  color: gray;
+  font-size: 15px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+
+body
+{
+  background-image: url('background.jpg');
+}
+
+input[type=submit] {
+    background:gray;
+    color: white;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+input[type=text] {
+    border:2px solid #gray;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#line{
+  width: 100%;
+  height: 47px;
+  top: 85%;
+  border-bottom: 1px solid white;
+  position: absolute;
+
+}
+
+#footer_p
+{
+  color: white;
+}
+
+#footer {
+  text-align: center;
+  position: absolute;
+  top: 90%;
+  left: 45%
+
+}
+
+
+  #footer:before {
+    content: '';
+    border-top: solid 1px rgba(255, 255, 255, 0.25);
+    width: 1em;
+    display: white;
+    margin: 0 auto 1em auto;
+  }
+
+  #footer h4
+  {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Snell Roundhand, cursive;
+  }
+
+
+  .container_footer
+  {
+    display: flex;
+    justify-content: space-around
+  }
